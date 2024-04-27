@@ -91,3 +91,74 @@ Examples of big data include:
 - Webpage content
 - Surveillance data
 - Audio recordings
+
+# DATA CLEANSING
+Data cleansing in Python refers to the process of identifying and correcting errors, inconsistencies, and inaccuracies in a dataset to improve its quality and reliability for analysis or other purposes. It involves various tasks such as handling missing values, removing duplicates, correcting inaccuracies, and standardizing formats.
+
+## Handling Missing Data
+Identifying and handling missing values in the dataset, either by removing them, imputing them with a suitable value, or using more advanced techniques like interpolation.
+
+Example:
+Remove
+![image](https://github.com/alnimashakiya/DataAnalitics_Learning_Week-3/assets/165742697/8108c4dc-ec57-44e3-873d-380d3fe921ea)
+
+![image](https://github.com/alnimashakiya/DataAnalitics_Learning_Week-3/assets/165742697/15d0299c-b237-4900-8126-f9ad777838f3)
+
+_The data has cleaned_
+
+# DATA MANIPULATION
+Data manipulation in Python refers to the process of modifying, transforming, or cleaning data to prepare it for analysis or visualization. Python offers powerful libraries such as pandas, NumPy, and scikit-learn for data manipulation tasks.
+
+## Pivot
+In Python, you can create pivot tables using various libraries, but one of the most commonly used ones is pandas. Pandas is a powerful data manipulation library that provides easy-to-use data structures and data analysis tools.
+
+Example:
+![image](https://github.com/alnimashakiya/DataAnalitics_Learning_Week-3/assets/165742697/5a559699-4ec5-478d-acba-8ec3cbd2883c)
+
+## Grouping
+In Python, you can use the groupby() method from pandas to perform "group by" operations on your DataFrame. This allows you to group data based on certain values in one or more columns and then apply aggregation functions to each group.
+
+Example:
+![image](https://github.com/alnimashakiya/DataAnalitics_Learning_Week-3/assets/165742697/85e1b402-540a-44e4-b23d-7ed1fae5807b)
+
+## Crosstab
+In Python, you can use the crosstab() function from the pandas library to create a cross-tabulation table, also known as a contingency table. This function computes a simple cross-tabulation of two or more factors. It's particularly useful for analyzing categorical data and understanding the relationship between different variables.
+
+Example:
+![image](https://github.com/alnimashakiya/DataAnalitics_Learning_Week-3/assets/165742697/da3c579a-dad8-4ef4-8c0e-14471f557258)
+
+## Dummies
+Dummies or dummy variables are binary representations of a categorical variable in statistical analysis and machine learning. In Python, particularly using the pandas library, you can easily create dummy variables using the get_dummies() function. The result will be a new DataFrame with dummy variables for each unique value in a column. Dummy variables will have a value of 1 if the sample has the corresponding value in the category, and 0 if not. Dummy variables help introduce categorical variables into prediction models, especially in machine learning algorithms that require numerical input.
+
+Example:
+![image](https://github.com/alnimashakiya/DataAnalitics_Learning_Week-3/assets/165742697/5a7af3c9-03ec-4d7d-9abb-8d16b5b19ee0)
+
+Creating dummy variables from the 'category' column of the DataFrame df, and the column names of the dummy variables will have the prefix 'sellable_online'. Dummy variables will have a value of 1 if the sample has the corresponding value in the category, and 0 if not.
+
+True = 1 False = 0
+
+## Sort
+Sorting data in Python refers to arranging the elements of a data structure, such as lists, arrays, or DataFrames, in a specified order. This order can be ascending (from smallest to largest) or descending (from largest to smallest), depending on the requirements.
+
+Example:
+![image](https://github.com/alnimashakiya/DataAnalitics_Learning_Week-3/assets/165742697/41673878-9aa2-4d86-bde5-fa497ff47e8d)
+
+## Rename
+In Python, particularly when working with pandas DataFrames, you can use the rename() method to rename columns or indexes in your DataFrame.
+
+Example:
+![image](https://github.com/alnimashakiya/DataAnalitics_Learning_Week-3/assets/165742697/38adf9f2-678b-4f96-b27d-00ae324cc8db)
+
+## Concat
+In Python, particularly when working with pandas, the concat() function is used to concatenate two or more pandas objects along a particular axis (usually rows or columns). This function is useful for combining data from multiple sources into a single DataFrame.
+
+Example:
+![image](https://github.com/alnimashakiya/DataAnalitics_Learning_Week-3/assets/165742697/53d32313-ff1a-4fb8-aeab-7b182ecd9dd3)
+![image](https://github.com/alnimashakiya/DataAnalitics_Learning_Week-3/assets/165742697/be9f8cef-9ac6-4024-9bc2-8e45be240894)
+
+## Merge
+In Python, particularly when working with pandas, the merge() function is used to combine two DataFrames by joining them on one or more keys. This function is similar to SQL join operations.
+
+Example:
+![image](https://github.com/alnimashakiya/DataAnalitics_Learning_Week-3/assets/165742697/efe1f0d4-9b8c-4ed0-9843-ad062c956a16)
+![image](https://github.com/alnimashakiya/DataAnalitics_Learning_Week-3/assets/165742697/4e19c265-cc03-4e3c-99a2-b38d14eb0376)
